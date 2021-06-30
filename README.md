@@ -1,6 +1,6 @@
 # GraphQL Crash Course Tutorial
 
-A tutorial for using GraphQL with Apollo server/client.
+A tutorial for using GraphQL with Apollo by **Laith Harb**, and completed by Chen.
 
 _tutorial video:_ https://www.youtube.com/watch?v=CFrKTrMJIBY&list=PLQPqfRFsmYBaL-kJ7mR-ssdASjhudwv6k&index=3&t=32s
 
