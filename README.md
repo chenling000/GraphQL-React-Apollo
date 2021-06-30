@@ -31,7 +31,7 @@ _Git Bash_
 
 ---
 
-## using boilerplate of Apollo Doc
+### using boilerplate of Apollo Doc
 
 _Apollo Doc:_ https://www.apollographql.com/docs/apollo-server/getting-started/
 
@@ -80,7 +80,7 @@ return (
 import { useQuery, gql } from "@apollo/client";
 
 // making query
-// capital letter style is the common convention for query variable
+// all capitals is the common convention for naming query
 const MY_QUERY = gql`
   {
     ...
