@@ -18,9 +18,9 @@ const animalsData = [
   {
     id: 0,
     image: "dog",
-    title: "golden retriever",
+    title: "1-year Male Golden Retriever with a Overwhelming Big Smile",
     rating: 5.0,
-    price: "$5,000,000",
+    price: "5,000,000",
     description: ["your best friend", "your family", "never cheating"],
     stock: 1,
     onSale: null,

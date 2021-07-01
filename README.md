@@ -1,6 +1,6 @@
 # GraphQL Crash Course Tutorial
 
-A tutorial for using GraphQL with Apollo by **Laith Harb**, and completed by Chen.
+A tutorial for using GraphQL with Apollo by **Laith Harb**, and be completed by Chen.
 
 _tutorial video:_ https://www.youtube.com/watch?v=CFrKTrMJIBY&list=PLQPqfRFsmYBaL-kJ7mR-ssdASjhudwv6k&index=3&t=32s
 
@@ -98,4 +98,20 @@ if (loading) return <div>loading...</div>;
 if (error) return <div>ERROR</div>;
 
 console.log("data", data);
+```
+
+- **making mutation query and rewrite database**
+
+```js
+import { useMutation, gql } from "@apollo/client";
+
+const MY_MUTATION = gql`
+mutation ($var: Var!) {
+  ...
+  your mutation syntax
+  (using variable optionally)
+  ...
+}
+`;
+const [mutation] = useMutation(MY_MUTATION);
 ```
